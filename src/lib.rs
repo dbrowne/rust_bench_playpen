@@ -1,5 +1,5 @@
-mod db_functions;
-mod db_models;
-mod schema;
+pub mod db_functions;
+pub  mod db_models;
+pub  mod schema;
 
 
