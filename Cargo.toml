@@ -16,3 +16,11 @@ diesel = { version = "2.0.4", features = ["postgres", "chrono", "uuid"] }
 dotenvy = "0.15.7"
 chrono = {version = "0.4.19", features = ["serde"] }
 uuid = {version = "1.3.3", features = [ "v4"] }
+
+
+[dev-dependencies]
+criterion = {version = "0.3.4", features=["html_reports"]}
+
+[[bench]]
+name = "db_benches"
+harness = false
